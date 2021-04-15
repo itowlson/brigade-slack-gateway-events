@@ -1,0 +1,33 @@
+{
+  "name": "brigade-slack-gateway-events",
+  "version": "0.0.1",
+  "description": "Helpers for writing Brigade Slack event handlers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc -p .",
+    "lint": "eslint src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itowlson/brigade-slack-gateway-events.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itowlson/brigade-slack-gateway-events/issues"
+  },
+  "homepage": "https://github.com/itowlson/brigade-slack-gateway-events#readme",
+  "dependencies": {
+    "@brigadecore/brigadier": "2.0.0-alpha.3",
+    "@brigadecore/brigade-sdk": "file:../brigade-sdk-for-js/brigadecore-brigade-sdk-0.0.3.tgz",
+    "@slack/bolt": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "@typescript-eslint/parser": "^4.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "eslint": "^7.22.0"
+  }
+}
