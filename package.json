@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/itowlson/brigade-slack-gateway-events#readme",
   "dependencies": {
-    "@brigadecore/brigade-sdk": "file:../brigade-sdk-for-js/brigadecore-brigade-sdk-0.0.3.tgz",
+    "@brigadecore/brigade-sdk": "2.0.0-alpha.3",
     "@brigadecore/brigadier": "2.0.0-alpha.3",
     "@slack/bolt": "^3.3.0",
     "@slack/web-api": "^6.1.0"
